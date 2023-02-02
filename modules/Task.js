@@ -59,9 +59,6 @@ class Task {
         return modalOverlay
     }
 
-    
-
-
     render() {
         const body = document.body
         const newTaskBlock = document.querySelector('.create-task-block')
@@ -79,7 +76,6 @@ class Task {
             
         renderTasks()
 
-        
         const addNewTask = (event) => {
             event.preventDefault()
             const {target} = event
