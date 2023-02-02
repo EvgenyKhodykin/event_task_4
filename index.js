@@ -1,5 +1,5 @@
-import createNewTask from "./functions/createNewTask.js"
-import createModalWindow from "./functions/createModalWindow.js"
+import createNewTask from "./modules/createNewTask.js"
+import createModalWindow from "./modules/createModalWindow.js"
 
 const tasks = [
     {
